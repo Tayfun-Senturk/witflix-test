@@ -1,3 +1,43 @@
-h1{
+.logo  {
+    width: 12rem;
+    border: 1px solid black;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topics a{
+margin: 1rem;
+text-decoration: none;
+color: black;
+}
+
+.topics {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.icon {
+    width: 3rem;
+    border-radius: 30rem;
+    margin: 1rem;
+}
+
+ .search{
+    height: 2rem;
+    width: 10rem;
+    margin: 1rem;
+ }
+
+ .user-panel{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+ }
+.main{
+    border: 1px solid black;
+}
+.tags{
     color: red;
+    font-weight: bold;
 }
