@@ -102,10 +102,13 @@ color: black;
 
 .follow img{
     width: 2rem;
+    margin: 1rem 0;
+    padding-right: 1rem;
 }
 .apps img{
  width: 5rem;
  height: 2rem;
+ margin: 1rem 0;
 }
 
 footer {
