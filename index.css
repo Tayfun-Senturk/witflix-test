@@ -2,8 +2,7 @@
     width: 12rem;
     
 }
-header{
-    
+header{ 
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -14,6 +13,13 @@ text-decoration: none;
 color: black;
 }
 
+.topics a:hover{
+    color: red;
+}
+.user-panel i:hover{
+    color: red;
+    cursor: pointer;
+}
 .topics {
     display: flex;
     flex-wrap: nowrap;
@@ -62,6 +68,7 @@ color: black;
 
 .age {
     border: 1px solid black;
+    margin-right: 1rem;
 }
 
 .ratings{
@@ -170,7 +177,6 @@ footer {
     background: none;
     font-size: 1rem;
     color: #888;
-    cursor: pointer;
 }
 
 .search button:focus {
@@ -180,6 +186,10 @@ footer {
 .search button i {        
     font-size: 1rem;
     color: red;                
+}
+
+button{
+    cursor: pointer;
 }
 
 *{
@@ -220,7 +230,7 @@ footer {
     }
     .topics{
         justify-content: space-evenly;
-    }
+    } 
     body  {
         min-width: 400px;
     }
