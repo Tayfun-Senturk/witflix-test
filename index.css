@@ -97,6 +97,7 @@ color: black;
 .movie-card {
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
