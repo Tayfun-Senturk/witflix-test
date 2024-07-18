@@ -130,6 +130,7 @@ color: black;
  margin: 1rem 0;
 }
 
+
 footer {
     margin-top: 1rem;
     display: flex;
@@ -199,6 +200,7 @@ body {
     background-color: #dadada;
 }
 
+
 @media screen and (max-width: 889px) {
     header nav {
         order: 10;
@@ -219,6 +221,7 @@ body {
     }
     footer {
         flex-wrap: wrap;
+        justify-content: space-evenly;
     }
     .movie-card{
         border-radius: 1rem;
